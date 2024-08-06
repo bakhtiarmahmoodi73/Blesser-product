@@ -1,0 +1,287 @@
+.header {
+  background-color: #fff;
+}
+.header div {
+  display: flex;
+}
+.header div input {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 700px;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgb(238, 237, 237);
+  border-color: lightgrey;
+}
+.header div img {
+  margin-right: 10px;
+  width: 100px;
+  height: 50px;
+}
+.header .fa-user {
+  margin: 15px;
+}
+.header .fa-cart-shopping {
+  margin: 15px;
+}
+.header .fa-moon {
+  margin: 15px;
+}
+.header ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+.header .item {
+  margin: 0 20px 0 20px;
+  list-style: none;
+}
+
+.header .item a {
+  text-decoration: none;
+  color: grey;
+}
+.container {
+  background-color: rgb(238, 237, 237);
+}
+.item-product {
+  display: flex;
+  justify-content: flex-start;
+}
+.item-product a {
+  text-decoration: none;
+  color: gray;
+  margin: 0 5px 0 5px;
+}
+.item-product i {
+  margin-right: 5px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+}
+
+.main aside {
+  background-color: #fff;
+  width: 160px;
+  height: 130px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.main .price {
+  display: flex;
+  /* justify-content: space-between; */
+}
+#price-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#price-item button {
+  background-color: red;
+  margin: 20px 10px 5px 50px;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 0.6rem;
+  width: 30px;
+}
+#price-item del {
+  color: grey;
+  font-size: 0.7rem;
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
+.price p {
+  margin-left: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.main aside #buy {
+  text-align: center;
+  margin: 20px 5px 15px 5px;
+  width: 90%;
+  color: #fff;
+  border: none;
+  background-color: deepskyblue;
+  border-radius: 5px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+#main-bar {
+  background-color: #fff;
+  width: 800px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  display: flex;
+}
+.main .slice-1 {
+  background-color: #fff;
+  width: 220px;
+  height: 400px;
+  background-color: #fff;
+}
+#text {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  padding: 5px;
+  font-size: 1.1rem;
+}
+#picture {
+  width: 210px;
+}
+
+#images {
+  display: flex;
+}
+
+#images img {
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid gainsboro ;
+  border-radius: 5px;
+}
+.fa-ellipsis{
+    /* margin-top: 5px; */
+    padding: 30px 20px 30px 20px;
+    background-color: rgb(238, 237, 237);
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    width: 18px;
+    height: 12px;
+}
+.main .slice-1 img {
+  width: 100px;
+  padding: 10px;
+}
+#watch {
+  color: dodgerblue;
+  margin-right: 5px;
+}
+.main .slice-2 {
+  background-color: #fff;
+  width: 500px;
+  height: 330px;
+  position: relative;
+}
+
+
+.rounded {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+  padding: 5px;
+}
+.check {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid blue;
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+.check-2 {
+  display: inline-block;
+  background-color: blue;
+  border-radius: 50%;
+  border: 1px solid blue;
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+.slice-2 #checked {
+  display: flex;
+}
+
+.products {
+  background-color: #fff;
+  display: flex;
+  width: 530px;
+}
+.products-item {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(238, 237, 237);
+  width: 210px;
+  height: 70px;
+  border: 1px solid gainsboro;
+  margin: 5px;
+  border-radius: 7px;
+}
+.products-item #gg {
+  position: relative;
+  font-size: 0.7rem;
+  color: gray;
+  padding: 5px;
+}
+.products-item #ff {
+  position: absolute;
+  bottom: 55px;
+  padding: 5px;
+}
+
+.main .slice-3 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+}
+.main .slice-3 a {
+  color: gray;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  margin: 5px;
+}
+.ff {
+  align-items: center;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.slice-4 {
+
+  background-color: #fff;
+  position: absolute;
+  right: 238px;
+  width: 500px;
+  height: 200px;
+  top: 502px;
+}
+.slice-5{
+    position: absolute;
+    top: 650px;
+    width: 750px;
+}
+ .footer{
+    background-color:#fff;
+    display: flex;
+    margin-right: 5px;
+}
+.footer-item{
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-item p{
+    font-size: 0.8rem;
+    color: gray;
+}
+.footer-item i{
+    padding: 10px 5px 5px 5px;
+}
